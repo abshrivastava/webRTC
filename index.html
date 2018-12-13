@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Dashboard + Video Conferencing + Chat + File Sharing | RTCMultiConnection</title>
+  
+  <script src="custom.js"></script>
+</head>
+
+<body>
+<video id="v1" width="108" height="81" controls autoplay muted></video>
+<video id="v2" width="108" height="81" controls autoplay></video><br>
+<table><tr><td><button onclick="start()">Start!</button></td>
+  <td><div id="statediv"></div></td>
+</tr></table>
+<label><input type="checkbox" onclick="mute()">mute</label>
+<div id="div"></div><br><div id="statsdiv"></div>
+<script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+</body>
+<html/>
